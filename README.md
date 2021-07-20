@@ -60,5 +60,17 @@ Con:
 * Git Repo size increases by "binary" data.
 
 
+# TODO Django-Compressor
+
+# TODO Django-Node-Assets
+
+https://github.com/whitespy/django-node-assets
+
+# TODO npm
+
+`package.json` and `node install`.
+
+Then add directory to STATICFILES_DIRS
+
 
 

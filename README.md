@@ -31,6 +31,9 @@ Result:
         crossorigin="anonymous"></script>
 ```
 
+PRO:
+* Lightweight and easy. No need to download and manage JS/CSS files locally.
+
 Con: 
 
 * You can't develop offline. 
@@ -44,6 +47,12 @@ You can download the third party files and store them in your git repo.
 To make it more obvious for developers that this code was downloaded and not
 created within the current project, it is a good habit to store the files
 in a directory called "vendor". Usualy it is enough to download the minified version.
+
+PRO:
+
+* You don't need a "integrity" hash, since you most likely serve the files from the same host.
+* If you need to modify the library, you can do so easily.
+
 
 Con: 
 

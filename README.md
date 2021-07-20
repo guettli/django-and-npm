@@ -20,7 +20,7 @@ For example for htmx this would be at the moment: https://unpkg.com/htmx.org@1.5
 
 But since this URL is a redirect, it it better to use the target of the redirect.
 
-The CDN could get hacked, and the library could get replaced by evil code, you should
+The CDN could get hacked, and the library could get replaced by evil code. You should
 use a tool like [srihash.org](https://www.srihash.org/) to calculate the hash.
 
 Result:

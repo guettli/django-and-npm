@@ -4,7 +4,7 @@ The documentation of Django about their [Static file handling](https://docs.djan
 
 There is `settings.STATICFILES_DIRS` to configure which directories should be included.
 
-If you are just using your own files this usualy works fine.
+If you are just using your own JS/CSS files this usualy works fine.
 
 But how to handle dependencies?
 

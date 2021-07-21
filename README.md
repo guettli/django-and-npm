@@ -74,9 +74,23 @@ I don't want to compress the third-party JS or my JS.
 
 https://github.com/whitespy/django-node-assets
 
-# TODO npm
+# npm by hand
 
-`package.json` and `node install`.
+You can create a `package.json` file:
+
+example: 
+
+```
+{
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "htmx.org": "^1.5.0"
+  }
+```
+
+After running `node install` I have the file `node_modules/htmx.org/dist/htmx.min.js.gz`
+
+
 
 Then add directory to STATICFILES_DIRS
 

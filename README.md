@@ -2,13 +2,11 @@
 
 The documentation of Django about their [Static file handling](https://docs.djangoproject.com/en/dev/howto/static-files/) explains only the basics.
 
-There is `settings.STATICFILES_DIRS` to configure which directories should be included.
-
 If you are just using your own JS/CSS files this usualy works fine.
 
-But how to handle dependencies?
+But how to handle dependencies to third party JS files which are available via [npmjs.com](https://www.npmjs.com/)?
 
-Imagine you want to use bootstrap5 or htmx.org. How to integrate these files?
+Imagine you want to use bootstrap5 and htmx.org. How to integrate these files into your Django project?
 
 Let's list the options we have:
 

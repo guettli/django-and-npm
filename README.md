@@ -60,7 +60,15 @@ Con:
 * Git Repo size increases by "binary" data.
 
 
-# TODO Django-Compressor
+# Django-Compressor
+
+I think [django-compressor](https://github.com/django-compressor/django-compressor) does not what I want.
+
+> Compresses linked and inline javascript or CSS into a single cached file.
+
+I just want an easy way to get some JS modules which are available via npm in my project.
+
+I don't want to compress the third-party JS or my JS.
 
 # TODO Django-Node-Assets
 

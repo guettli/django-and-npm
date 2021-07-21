@@ -92,7 +92,7 @@ After running `node install` I have the file `node_modules/htmx.org/dist/htmx.mi
 
 
 
-Then add directory to STATICFILES_DIRS
+Then add directory to [STATICFILES_DIRS](https://docs.djangoproject.com/en/dev/ref/settings/#staticfiles-dirs)
 
-
+... TODO
 
